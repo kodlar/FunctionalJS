@@ -1,26 +1,18 @@
+// eski yazım
+//var fs = require('fs');
 
+// yeni yazım import diyebilmek için
+// "babel": "^6.5.2",
+//  "babel-cli": "^6.10.1",
+//  "babel-preset-es2015": "^6.9.0" paketlerini kurdum
+// sonra babel f4.js | node çalıştırdım
+// utf8 character encoding koymadığın zaman buffer bir byte değeri dönüyour
+// utf8 ekleyince textin kendisi dönüyour
 
+import fs from 'fs'
 
-
-
-
-
-
-
-
-
-
-
-//output like that
-/*
-var data = {
-  'ali' : [ { name :'blender', price : '50', quantity : '2'},
-{ name :'supurge', price : '40', quantity : '1'},
-{ name :'bardak', price : '34', quantity : '5'}],
-  'burak' : [{ name :'terlik', price : '23', quantity : '1'},
-{ name :'cdlik', price : '50', quantity : '1'},
-{ name :'resim', price : '50', quantity : '2'}]
-}
-
-console.log(data)
-*/
+var output = fs.readFileSync('f4.txt','utf8')
+            .trim()
+            .split('\n')
+            .map(line => line.split('\t'))
+console.log('output', output)
