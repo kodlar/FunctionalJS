@@ -1,6 +1,6 @@
-ali blender 50  2
-ali supurge 40  1
-ali bardak  34  5
-burak terlik  23  1
-burak cdlik 50  1
-burak resim 50  2 
+mark johansson  waffle iron 80  2
+mark johansson  blender 200  1
+mark johansson  knife 10  4
+nikita smith  waffle iron 80  2
+nikita smith  blender 200  1
+nikita smith  knife 10  4

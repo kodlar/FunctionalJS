@@ -15,7 +15,15 @@ var output = fs.readFileSync('f4.txt','utf8')
             .trim()
             .split('\n')
             .map(line => line.split('\t'))
-            .reduce((customer, line) => {
-              return customer
+              .reduce((customers, line) => {
+              console.log('hello', line)
+              customers[line[0]] = customers[line[0]] || []
+              customers[line[0]].push({
+                name : line[1],
+                price : line[2],
+                quantity : line[4]
+              })
+              return customers
             }, {})
+            
 console.log('output', output)
