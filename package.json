@@ -1,0 +1,25 @@
+{
+  "name": "lessons",
+  "version": "1.0.0",
+  "description": "Derslerin videoları  <br /> <br /> f1.js videosu https://www.youtube.com/watch?v=BMUiFMZr7vk <br /> f2.js videosu https://www.youtube.com/watch?v=bCqtb-Z5YGQ <br /> f3.js videosu https://www.youtube.com/watch?v=Wl98eZpkp-c <br /> f4.js videosu https://www.youtube.com/watch?v=1DMolJ2FrNY <br />",
+  "main": "f1.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kodlar/FunctionalJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kodlar/FunctionalJS/issues"
+  },
+  "homepage": "https://github.com/kodlar/FunctionalJS#readme"
+}
