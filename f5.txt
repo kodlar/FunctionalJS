@@ -1,0 +1,3 @@
+Closures konusu anlatıldı. Konu basit bir fonksiyonun kendi kapsam alanı dışından herhangi bir değişkeni çağırarak
+kendi içinde kullanabilmesi. Bu özelliği olmayan programlama dilleri, erişemedikleri değişkenleri parametre olarak
+alırlar.
